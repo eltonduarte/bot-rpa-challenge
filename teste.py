@@ -18,6 +18,7 @@ Espere para encontrar o input
 
 pagina_carregada = WebDriverWait(bot, 1).until(EC.title_contains('Certsys'))
 
+#teste
 print(pagina_carregada)
     
 
