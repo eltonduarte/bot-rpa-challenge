@@ -1,0 +1,119 @@
+INFO; Driver instalado com sucesso.
+INFO; Sessão com driver estabelecida com sucesso.
+INFO; Leitura da planilha realizada com sucesso.
+INFO; Página carregada com sucesso.
+INFO; Botão Start pressionado com sucesso.
+INFO; Round 0
+INFO; Campo 'First Name' preenchido com sucesso.
+INFO; Campo 'Last Name' preenchido com sucesso.
+INFO; Campo 'Phone Number' preenchido com sucesso.
+INFO; Campo 'Company Name' preenchido com sucesso.
+INFO; Campo 'Role in Company' preenchido com sucesso.
+INFO; Campo 'Address' preenchido com sucesso.
+INFO; Campo 'Email' preenchido com sucesso.
+INFO; Round 1
+INFO; Campo 'First Name' preenchido com sucesso.
+INFO; Campo 'Last Name' preenchido com sucesso.
+INFO; Campo 'Phone Number' preenchido com sucesso.
+INFO; Campo 'Company Name' preenchido com sucesso.
+INFO; Campo 'Role in Company' preenchido com sucesso.
+INFO; Campo 'Address' preenchido com sucesso.
+INFO; Campo 'Email' preenchido com sucesso.
+INFO; Round 2
+INFO; Campo 'First Name' preenchido com sucesso.
+INFO; Campo 'Last Name' preenchido com sucesso.
+INFO; Campo 'Phone Number' preenchido com sucesso.
+INFO; Campo 'Company Name' preenchido com sucesso.
+INFO; Campo 'Role in Company' preenchido com sucesso.
+INFO; Campo 'Address' preenchido com sucesso.
+INFO; Campo 'Email' preenchido com sucesso.
+INFO; Round 3
+INFO; Campo 'First Name' preenchido com sucesso.
+INFO; Campo 'Last Name' preenchido com sucesso.
+INFO; Campo 'Phone Number' preenchido com sucesso.
+INFO; Campo 'Company Name' preenchido com sucesso.
+INFO; Campo 'Role in Company' preenchido com sucesso.
+INFO; Campo 'Address' preenchido com sucesso.
+INFO; Campo 'Email' preenchido com sucesso.
+INFO; Round 4
+INFO; Campo 'First Name' preenchido com sucesso.
+INFO; Campo 'Last Name' preenchido com sucesso.
+INFO; Campo 'Phone Number' preenchido com sucesso.
+INFO; Campo 'Company Name' preenchido com sucesso.
+INFO; Campo 'Role in Company' preenchido com sucesso.
+INFO; Campo 'Address' preenchido com sucesso.
+INFO; Campo 'Email' preenchido com sucesso.
+INFO; Round 5
+INFO; Campo 'First Name' preenchido com sucesso.
+INFO; Campo 'Last Name' preenchido com sucesso.
+INFO; Campo 'Phone Number' preenchido com sucesso.
+INFO; Campo 'Company Name' preenchido com sucesso.
+INFO; Campo 'Role in Company' preenchido com sucesso.
+INFO; Campo 'Address' preenchido com sucesso.
+INFO; Campo 'Email' preenchido com sucesso.
+INFO; Round 6
+INFO; Campo 'First Name' preenchido com sucesso.
+INFO; Campo 'Last Name' preenchido com sucesso.
+INFO; Campo 'Phone Number' preenchido com sucesso.
+INFO; Campo 'Company Name' preenchido com sucesso.
+INFO; Campo 'Role in Company' preenchido com sucesso.
+INFO; Campo 'Address' preenchido com sucesso.
+INFO; Campo 'Email' preenchido com sucesso.
+INFO; Round 7
+INFO; Campo 'First Name' preenchido com sucesso.
+INFO; Campo 'Last Name' preenchido com sucesso.
+INFO; Campo 'Phone Number' preenchido com sucesso.
+INFO; Campo 'Company Name' preenchido com sucesso.
+INFO; Campo 'Role in Company' preenchido com sucesso.
+INFO; Campo 'Address' preenchido com sucesso.
+INFO; Campo 'Email' preenchido com sucesso.
+INFO; Round 8
+INFO; Campo 'First Name' preenchido com sucesso.
+INFO; Campo 'Last Name' preenchido com sucesso.
+INFO; Campo 'Phone Number' preenchido com sucesso.
+INFO; Campo 'Company Name' preenchido com sucesso.
+INFO; Campo 'Role in Company' preenchido com sucesso.
+INFO; Campo 'Address' preenchido com sucesso.
+INFO; Campo 'Email' preenchido com sucesso.
+INFO; Round 9
+INFO; Campo 'First Name' preenchido com sucesso.
+INFO; Campo 'Last Name' preenchido com sucesso.
+INFO; Campo 'Phone Number' preenchido com sucesso.
+INFO; Campo 'Company Name' preenchido com sucesso.
+INFO; Campo 'Role in Company' preenchido com sucesso.
+INFO; Campo 'Address' preenchido com sucesso.
+INFO; Campo 'Email' preenchido com sucesso.
+INFO; Leitura da planilha realizada com sucesso.
+INFO; Leitura da planilha realizada com sucesso.
+INFO; Leitura da planilha realizada com sucesso.
+INFO; Message: javascript error: missing ) after argument list
+  (Session info: chrome=122.0.6261.112)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DD36AD32+56930]
+	(No symbol) [0x00007FF6DD2DF632]
+	(No symbol) [0x00007FF6DD1942E5]
+	(No symbol) [0x00007FF6DD199261]
+	(No symbol) [0x00007FF6DD19B9FD]
+	(No symbol) [0x00007FF6DD218E57]
+	(No symbol) [0x00007FF6DD1FBC9A]
+	(No symbol) [0x00007FF6DD2181E2]
+	(No symbol) [0x00007FF6DD1FBA43]
+	(No symbol) [0x00007FF6DD1CD438]
+	(No symbol) [0x00007FF6DD1CE4D1]
+	GetHandleVerifier [0x00007FF6DD6E6ABD+3709933]
+	GetHandleVerifier [0x00007FF6DD73FFFD+4075821]
+	GetHandleVerifier [0x00007FF6DD73818F+4043455]
+	GetHandleVerifier [0x00007FF6DD409766+706710]
+	(No symbol) [0x00007FF6DD2EB90F]
+	(No symbol) [0x00007FF6DD2E6AF4]
+	(No symbol) [0x00007FF6DD2E6C4C]
+	(No symbol) [0x00007FF6DD2D6904]
+	BaseThreadInitThunk [0x00007FFB0AC9257D+29]
+	RtlUserThreadStart [0x00007FFB0B6AAA58+40]
+
+INFO; Leitura da planilha realizada com sucesso.
+INFO; Leitura da planilha realizada com sucesso.
+INFO; Leitura da planilha realizada com sucesso.
+INFO; Leitura da planilha realizada com sucesso.
+INFO; Leitura da planilha realizada com sucesso.
+INFO; Leitura da planilha realizada com sucesso.
