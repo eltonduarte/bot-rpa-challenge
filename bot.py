@@ -29,6 +29,8 @@ try:
     if estado_janela != "complete":
         raise Exception("Página não carregou.")
     
+    
+    
     log_to_file("Página carregada com sucesso.", PATH_LOG)
     
     # Clica no botão 'Start'
@@ -71,5 +73,8 @@ try:
         bot.find_element('xpath', "//input[@type = 'submit' or @value = 'submit']").click()
 
 except Exception as mensagem_erro:
-    log_to_file(mensagem_erro)
-    bot.get_screenshot_as_file(BASE_DIR / 'prints' / f'{timestamp}.png')
+    log_to_file(mensagem_erro, PATH_LOG)
+    bot.get_screenshot_as_file(BASE_DIR / 'print' / f'erro_{timestamp}.png')
+
+finally:
+    bot.close()

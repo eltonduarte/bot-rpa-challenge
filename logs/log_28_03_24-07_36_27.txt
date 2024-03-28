@@ -1,0 +1,3 @@
+2024-03-28 07:36:30.556762 | INFO | Sessão com o webdriver estabelecida com sucesso
+2024-03-28 07:36:30.852467 | INFO | Leitura da planilha realizada com sucesso.
+2024-03-28 07:36:32.255026 | INFO | Página não carregou.

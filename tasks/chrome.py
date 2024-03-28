@@ -8,7 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 def make_chrome(path) -> webdriver.Chrome:
    
     _service = Service(executable_path = path / 'files' / 'chromedriver.exe')
-    _servico_gerenciado = Service(ChromeDriverManager().install())
+    _service_manager = Service(ChromeDriverManager().install())
     
     _options = ChromeOptions()
     _options.add_experimental_option("detach", True)
