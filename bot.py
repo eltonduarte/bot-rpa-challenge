@@ -1,87 +1,75 @@
-from selenium import webdriver
+from datetime import datetime
+from pathlib import Path
+from tasks.log import log_to_file
+from tasks.chrome import make_chrome
 import pandas as pd
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service 
-from selenium.webdriver import ChromeOptions
-from tasks.log import log
-# from tasks.chrome import make_chrome
+
+timestamp = datetime.now().strftime("%d_%m_%y-%H_%M_%S")
+url_site = "https://rpachallenge.com/"
+
+BASE_DIR = Path(__file__).resolve().parent
+PATH_LOG = BASE_DIR / 'logs' / f'log_{timestamp}.txt'
 
 
 try:
+    # Cria instância com o webdriver
+    bot = make_chrome(BASE_DIR)
+    log_to_file('Sessão com o webdriver estabelecida com sucesso', PATH_LOG)
 
-    # Configurações do navegador
-    opts = ChromeOptions()
-    opts.add_experimental_option("detach", True)
+    # Captura dados da planilha de entrada
+    dados = pd.read_excel(BASE_DIR / 'files' / 'challenge.xlsx')
+    log_to_file('Leitura da planilha realizada com sucesso.', PATH_LOG)
 
-    # Configurações do serviço e gerenciador
-    servico = Service(ChromeDriverManager().install())
-    log("Driver instalado com sucesso.")
+    # Entra no site do desafio
+    bot.get(url_site)
 
-    # Cria instância 
-    bot = webdriver.Chrome(service=servico, options=opts)
-    log("Sessão com driver estabelecida com sucesso.")
+    # Verifica se a janela carregou com sucesso
+    estado_janela = bot.execute_script(f"return document.readyState")
 
-    # externalizar o webdriver
-    # bot = make_chrome()
-
-    # Leitura da planilha
-    dados = pd.read_excel(r"C:\Users\elton.duarte\Downloads\python-rpa\rpa-challange\challenge.xlsx")
-    log("Leitura da planilha realizada com sucesso.")
-
-    # Entra no site
-    bot.get("https://rpachallenge.com/")
-
-    # https://www.w3schools.com/cssref/css_selectors.php
-    # name = bot.execute_script('return document.querySelector("input[ng-reflect-name=labelFirstName]")')
-    # name.send_keys('Duarte')
-
-    # Verifica se a janela carregou
-    pStrEstadoJanela = bot.execute_script(f"return document.readyState")
-
-    if pStrEstadoJanela != "complete":
+    if estado_janela != "complete":
         raise Exception("Página não carregou.")
     
-    log("Página carregada com sucesso.")
-
+    log_to_file("Página carregada com sucesso.", PATH_LOG)
+    
     # Clica no botão 'Start'
     bot.find_element('xpath', "//button[text() = 'Start']").click()
-    log("Botão Start pressionado com sucesso.")
+    log_to_file("Botão Start pressionado com sucesso.", PATH_LOG)
 
     for index, row in dados.iterrows():
         
-        log(f"Round {index}")
+        log_to_file(f"Round {index}", PATH_LOG)
 
         # Preenche o campo 'First Name'
         bot.find_element('xpath', "//input[@ng-reflect-name = 'labelFirstName']").send_keys(row['First Name'])
-        log("Campo 'First Name' preenchido com sucesso.")
+        log_to_file("Campo 'First Name' preenchido com sucesso.", PATH_LOG)
 
         # Preenche o campo 'Last Name'
         bot.find_element('xpath', "//input[@ng-reflect-name = 'labelLastName']").send_keys(row['Last Name '])
-        log("Campo 'Last Name' preenchido com sucesso.")
+        log_to_file("Campo 'Last Name' preenchido com sucesso.", PATH_LOG)
 
         # Preenche o campo 'Phone Number'
         bot.find_element('xpath', "//input[@ng-reflect-name = 'labelPhone']").send_keys(row['Phone Number'])
-        log("Campo 'Phone Number' preenchido com sucesso.")
+        log_to_file("Campo 'Phone Number' preenchido com sucesso.", PATH_LOG)
 
         # Preenche o campo 'Company Name'
         bot.find_element('xpath', "//input[@ng-reflect-name = 'labelCompanyName']").send_keys(row['Company Name'])
-        log("Campo 'Company Name' preenchido com sucesso.")
+        log_to_file("Campo 'Company Name' preenchido com sucesso.", PATH_LOG)
 
         # Preenche o campo 'Role in Company'
         bot.find_element('xpath', "//input[@ng-reflect-name = 'labelRole']").send_keys(row['Role in Company'])
-        log("Campo 'Role in Company' preenchido com sucesso.")
+        log_to_file("Campo 'Role in Company' preenchido com sucesso.", PATH_LOG)
 
         # Preenche o campo 'Address'
         bot.find_element('xpath', "//label[text() = 'Address']//following-sibling::input").send_keys(row['Address'])
-        log("Campo 'Address' preenchido com sucesso.")
+        log_to_file("Campo 'Address' preenchido com sucesso.", PATH_LOG)
 
         # Preenche o campo 'Email'
         bot.find_element('xpath', "//input[@ng-reflect-name = 'labelEmail']").send_keys(row['Email'])
-        log("Campo 'Email' preenchido com sucesso.")
+        log_to_file("Campo 'Email' preenchido com sucesso.", PATH_LOG)
 
         # Clica no botão 'Submit'
         bot.find_element('xpath', "//input[@type = 'submit' or @value = 'submit']").click()
-       
-except Exception as pStrMensagemErro:
-    log(pStrMensagemErro)
-    #bot.get_screenshot_as_file(r"C:\Users\epereiradua2\Downloads\python-basico\catho.png")
+
+except Exception as mensagem_erro:
+    log_to_file(mensagem_erro)
+    bot.get_screenshot_as_file(BASE_DIR / 'prints' / f'{timestamp}.png')

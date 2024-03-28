@@ -1,5 +1,8 @@
-def log(msg): 
-    with open(r'C:\Users\elton.duarte\Downloads\python-rpa\rpa-challange\logs/log.csv', 'a') as arquivo:
-        arquivo.write(f"INFO; {msg}")
+from datetime import datetime
+
+def log_to_file(msg, file): 
+
+    with open(file, 'a') as arquivo:
+        arquivo.write(f"{datetime.now()} | INFO | {msg}")
         arquivo.write('\n')
     
