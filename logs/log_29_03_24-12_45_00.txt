@@ -1,0 +1,86 @@
+2024-03-29 12:45:15.784357 | INFO | In�cio do processamento
+2024-03-29 12:45:25.913336 | INFO | Sess�o com o webdriver estabelecida com sucesso
+2024-03-29 12:45:31.260039 | INFO | Leitura da planilha realizada com sucesso.
+2024-03-29 12:45:42.879390 | INFO | P�gina carregada com sucesso.
+2024-03-29 12:45:46.619820 | INFO | Bot�o Start pressionado com sucesso.
+2024-03-29 12:47:20.341574 | INFO | Round 0
+2024-03-29 12:47:24.583673 | INFO | Campo 'First Name' preenchido com sucesso.
+2024-03-29 12:47:25.804448 | INFO | Campo 'Last Name' preenchido com sucesso.
+2024-03-29 12:47:27.076074 | INFO | Campo 'Phone Number' preenchido com sucesso.
+2024-03-29 12:47:30.131563 | INFO | Campo 'Company Name' preenchido com sucesso.
+2024-03-29 12:47:30.663148 | INFO | Campo 'Role in Company' preenchido com sucesso.
+2024-03-29 12:47:31.292779 | INFO | Campo 'Address' preenchido com sucesso.
+2024-03-29 12:47:31.867312 | INFO | Campo 'Email' preenchido com sucesso.
+2024-03-29 12:47:36.456834 | INFO | Round 1
+2024-03-29 12:47:36.527969 | INFO | Campo 'First Name' preenchido com sucesso.
+2024-03-29 12:47:36.591584 | INFO | Campo 'Last Name' preenchido com sucesso.
+2024-03-29 12:47:36.675251 | INFO | Campo 'Phone Number' preenchido com sucesso.
+2024-03-29 12:47:36.746064 | INFO | Campo 'Company Name' preenchido com sucesso.
+2024-03-29 12:47:36.824773 | INFO | Campo 'Role in Company' preenchido com sucesso.
+2024-03-29 12:47:36.908791 | INFO | Campo 'Address' preenchido com sucesso.
+2024-03-29 12:47:37.007920 | INFO | Campo 'Email' preenchido com sucesso.
+2024-03-29 12:47:49.584287 | INFO | Round 2
+2024-03-29 12:47:49.669661 | INFO | Campo 'First Name' preenchido com sucesso.
+2024-03-29 12:47:49.740001 | INFO | Campo 'Last Name' preenchido com sucesso.
+2024-03-29 12:47:49.810288 | INFO | Campo 'Phone Number' preenchido com sucesso.
+2024-03-29 12:47:49.866593 | INFO | Campo 'Company Name' preenchido com sucesso.
+2024-03-29 12:47:49.945113 | INFO | Campo 'Role in Company' preenchido com sucesso.
+2024-03-29 12:47:50.023654 | INFO | Campo 'Address' preenchido com sucesso.
+2024-03-29 12:47:50.109491 | INFO | Campo 'Email' preenchido com sucesso.
+2024-03-29 12:47:50.156775 | INFO | Round 3
+2024-03-29 12:47:50.224408 | INFO | Campo 'First Name' preenchido com sucesso.
+2024-03-29 12:47:50.291522 | INFO | Campo 'Last Name' preenchido com sucesso.
+2024-03-29 12:47:50.354430 | INFO | Campo 'Phone Number' preenchido com sucesso.
+2024-03-29 12:47:50.401317 | INFO | Campo 'Company Name' preenchido com sucesso.
+2024-03-29 12:47:50.479568 | INFO | Campo 'Role in Company' preenchido com sucesso.
+2024-03-29 12:47:50.558097 | INFO | Campo 'Address' preenchido com sucesso.
+2024-03-29 12:47:50.624688 | INFO | Campo 'Email' preenchido com sucesso.
+2024-03-29 12:47:50.687084 | INFO | Round 4
+2024-03-29 12:47:50.749974 | INFO | Campo 'First Name' preenchido com sucesso.
+2024-03-29 12:47:50.807980 | INFO | Campo 'Last Name' preenchido com sucesso.
+2024-03-29 12:47:50.870904 | INFO | Campo 'Phone Number' preenchido com sucesso.
+2024-03-29 12:47:50.940913 | INFO | Campo 'Company Name' preenchido com sucesso.
+2024-03-29 12:47:51.011937 | INFO | Campo 'Role in Company' preenchido com sucesso.
+2024-03-29 12:47:51.128259 | INFO | Campo 'Address' preenchido com sucesso.
+2024-03-29 12:47:51.206793 | INFO | Campo 'Email' preenchido com sucesso.
+2024-03-29 12:47:51.254058 | INFO | Round 5
+2024-03-29 12:47:51.305650 | INFO | Campo 'First Name' preenchido com sucesso.
+2024-03-29 12:47:51.389036 | INFO | Campo 'Last Name' preenchido com sucesso.
+2024-03-29 12:47:51.451940 | INFO | Campo 'Phone Number' preenchido com sucesso.
+2024-03-29 12:47:51.514471 | INFO | Campo 'Company Name' preenchido com sucesso.
+2024-03-29 12:47:51.577354 | INFO | Campo 'Role in Company' preenchido com sucesso.
+2024-03-29 12:47:51.657747 | INFO | Campo 'Address' preenchido com sucesso.
+2024-03-29 12:47:51.735872 | INFO | Campo 'Email' preenchido com sucesso.
+2024-03-29 12:47:51.783175 | INFO | Round 6
+2024-03-29 12:47:51.842038 | INFO | Campo 'First Name' preenchido com sucesso.
+2024-03-29 12:47:51.891628 | INFO | Campo 'Last Name' preenchido com sucesso.
+2024-03-29 12:47:51.954521 | INFO | Campo 'Phone Number' preenchido com sucesso.
+2024-03-29 12:47:52.017032 | INFO | Campo 'Company Name' preenchido com sucesso.
+2024-03-29 12:47:52.079936 | INFO | Campo 'Role in Company' preenchido com sucesso.
+2024-03-29 12:47:52.158728 | INFO | Campo 'Address' preenchido com sucesso.
+2024-03-29 12:47:52.242368 | INFO | Campo 'Email' preenchido com sucesso.
+2024-03-29 12:47:52.284137 | INFO | Round 7
+2024-03-29 12:47:52.347033 | INFO | Campo 'First Name' preenchido com sucesso.
+2024-03-29 12:47:52.410499 | INFO | Campo 'Last Name' preenchido com sucesso.
+2024-03-29 12:47:52.473405 | INFO | Campo 'Phone Number' preenchido com sucesso.
+2024-03-29 12:47:52.542917 | INFO | Campo 'Company Name' preenchido com sucesso.
+2024-03-29 12:47:52.596326 | INFO | Campo 'Role in Company' preenchido com sucesso.
+2024-03-29 12:47:52.705518 | INFO | Campo 'Address' preenchido com sucesso.
+2024-03-29 12:47:52.768398 | INFO | Campo 'Email' preenchido com sucesso.
+2024-03-29 12:47:52.830897 | INFO | Round 8
+2024-03-29 12:47:52.878174 | INFO | Campo 'First Name' preenchido com sucesso.
+2024-03-29 12:47:52.943701 | INFO | Campo 'Last Name' preenchido com sucesso.
+2024-03-29 12:47:53.006098 | INFO | Campo 'Phone Number' preenchido com sucesso.
+2024-03-29 12:47:53.069007 | INFO | Campo 'Company Name' preenchido com sucesso.
+2024-03-29 12:47:53.127990 | INFO | Campo 'Role in Company' preenchido com sucesso.
+2024-03-29 12:47:53.222708 | INFO | Campo 'Address' preenchido com sucesso.
+2024-03-29 12:47:53.301243 | INFO | Campo 'Email' preenchido com sucesso.
+2024-03-29 12:47:53.358798 | INFO | Round 9
+2024-03-29 12:47:53.421315 | INFO | Campo 'First Name' preenchido com sucesso.
+2024-03-29 12:47:53.477554 | INFO | Campo 'Last Name' preenchido com sucesso.
+2024-03-29 12:47:53.544567 | INFO | Campo 'Phone Number' preenchido com sucesso.
+2024-03-29 12:47:53.613270 | INFO | Campo 'Company Name' preenchido com sucesso.
+2024-03-29 12:47:53.676124 | INFO | Campo 'Role in Company' preenchido com sucesso.
+2024-03-29 12:47:53.754656 | INFO | Campo 'Address' preenchido com sucesso.
+2024-03-29 12:47:53.832791 | INFO | Campo 'Email' preenchido com sucesso.
+2024-03-29 12:47:53.895693 | INFO | Fim do processamento
