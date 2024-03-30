@@ -25,6 +25,7 @@ DEBUG = True
 
 def main():
     try:
+        # INÍCIO
         log_to_file(f'Início do processamento', PATH_LOG)
         
         bot = make_chrome(BASE_DIR)
@@ -33,6 +34,7 @@ def main():
         dados = pd.read_excel(BASE_DIR / 'files' / f"{FILES['entrada']}")
         log_to_file(f'Leitura da planilha realizada com sucesso.', PATH_LOG)
 
+        # PROCESSAMENTO
         bot.get(url_site)
         log_to_file(f'{url_site} carregado com sucesso', PATH_LOG)
 
@@ -50,6 +52,7 @@ def main():
         for index, row in dados.iterrows():
             preenche_formulario(bot, index, row, PATH_LOG)
 
+        # FIM
         log_to_file(f"Fim do processamento", PATH_LOG)
 
     except Exception as mensagem_erro:
