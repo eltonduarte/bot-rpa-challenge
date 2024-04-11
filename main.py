@@ -38,6 +38,14 @@ def main():
         # PROCESSAMENTO
         bot.get(url_site)
 
+        # Exemplo "contains"
+        if not "Rpa" in bot.title:
+            raise Exception('Janela Rpa Challeng não existe')
+
+        # Exemplo "equal"
+        if not "Rpa" == bot.title:
+            raise Exception('Janela Rpa Challeng não existe')
+        
         # Verifica se o objeto existe na página
         if not object_exists(bot = bot, xpath = "//button[text() = 'Start']"): 
             raise Exception('Botão Start não existe')

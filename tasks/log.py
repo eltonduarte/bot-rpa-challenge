@@ -6,3 +6,6 @@ def log_to_file(msg, file):
         arquivo.write(f"{datetime.now()} | INFO | {msg}")
         arquivo.write('\n')
     
+
+def falar():
+    print('Oi')
